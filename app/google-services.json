@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "270963819780",
+    "firebase_url": "https://shoppinglist-6ff34.firebaseio.com",
+    "project_id": "shoppinglist-6ff34",
+    "storage_bucket": "shoppinglist-6ff34.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:270963819780:android:5e5601ce8f301866",
+        "android_client_info": {
+          "package_name": "com.example.abhilashreddy.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "270963819780-5n2hc48sjbamd7bv50gfm5mlcfjamgv9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPM9QYETeEcESSrp2IptesTQtf9yRu0QE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.abhilashreddy.firebase.camera"
+    android:weightSum="1">
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoStart="true"
+        android:flipInterval="2000">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/lion"
+        android:layout_marginBottom="10dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/b"
+            android:layout_marginBottom="10dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/c"
+            android:layout_marginBottom="10dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/d"
+            android:layout_marginBottom="10dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/e"
+            android:layout_marginBottom="10dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/f"
+            android:layout_marginBottom="10dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/g"
+            android:layout_marginBottom="10dp"/>
+</ViewFlipper>
+
+
+<Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Camera"
+        android:background="#00bfff"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:id="@+id/cam"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="SAVE LOCATION"
+        android:background="#00bfff"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:id="@+id/record"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="PICTURES"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:background="#00bfff"
+        android:id="@+id/mypics"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="MapS"
+        android:textSize="20dp"
+        android:textAllCaps="true"
+        android:background="#00bfff"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/mymaps"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="SAVED LOCATIONS"
+        android:textSize="20dp"
+        android:background="#00bfff"
+        android:textAllCaps="true"
+        android:id="@+id/recordlist"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center_horizontal" />
+
+
+
+
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewimg"
+        android:layout_weight="0.84" />
+
+
+
+</LinearLayout>

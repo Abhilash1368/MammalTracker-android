@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp"
+        android:checkedButton="@+id/categoryradiobutton">
+
+        <RadioButton
+            android:id="@+id/categoryradiobutton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="radiobuttonselection"
+            android:text="Category"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/rareradiobutton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="radiobuttonselection"
+            android:text="Rare"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/exoticradiobutton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="radiobuttonselection"
+            android:text="Exotic"
+            android:textSize="15dp" />
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/categoryspinner"
+        android:layout_width="140dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"></Spinner>
+
+    <Spinner
+        android:id="@+id/rare"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"></Spinner>
+
+    <EditText
+        android:id="@+id/exoticedittext"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingRight="20dp"/>
+
+    <Button
+        android:id="@+id/save1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Save"
+        android:textSize="20dp" />
+</LinearLayout>
